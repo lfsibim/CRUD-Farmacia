@@ -31,8 +31,8 @@ public class Produto {
 	@Column(length = 50)
 	private String marca;
 	
-	@Size(max = 200, message = "A Descrição deve ter no máximo 200 caracteres!")
-	@Column(length = 200)
+	@Size(max = 500, message = "A Descrição deve ter no máximo 200 caracteres!")
+	@Column(length = 500)
 	private String descricao;
 	
 	@NotNull(message = "A Quantidade em Estoque é Obrigatório!")
